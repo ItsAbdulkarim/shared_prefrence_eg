@@ -15,6 +15,7 @@ class _SharePWithOutProviderState extends State<SharePWithOutProvider> {
   @override
   void initState() {
     super.initState();
+    isLightOn=false;
     getState(); // Load initial state when the widget is initialized
   }
 
